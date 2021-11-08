@@ -1,0 +1,36 @@
+/* Admin Tabs styling  */
+
+
+.wp-admin .wrap .field-continer {
+    margin: 10px;
+}
+
+.wp-admin .wrap .field-continer label {
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 769px) {
+    .wp-admin .wrap .field-continer label,
+    .wp-admin .wrap .field-continer input,
+    .wp-admin .wrap .field-continer select {
+        display: inline-block;
+    }
+
+    .wp-admin .wrap .field-continer input, 
+    .wp-admin .wrap .field-continer select {
+        width: calc(80% - 20px);
+    }
+
+    .wp-admin .wrap .field-continer label {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wp-admin .wrap .field-continer label,
+    .wp-admin .wrap .field-continer input,
+    .wp-admin .wrap .field-continer select {
+        display: block;
+        width: 100%;
+    }
+}
